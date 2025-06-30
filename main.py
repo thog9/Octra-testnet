@@ -81,14 +81,14 @@ def get_available_scripts(language):
         'vi': [
             {"name": "1. Tạo ví Octra │ Octra Testnet", "value": "createwallets"},
             {"name": "2. Gửi TX ngẫu nhiên hoặc File (address.txt) │ Octra Testnet", "value": "sendtx"},
-            {"name": "3. Faucet Octra │ Octra Testnet", "value": "faucet"},
+            {"name": "3. Faucet Octra │ Octra Testnet", "value": "faucet", "locked": True},
 
             {"name": "4. Thoát", "value": "exit"},
         ],
         'en': [
             {"name": "1. Octra Generator Wallets │ Octra Testnet", "value": "createwallets"},
             {"name": "2. Send Random TX or File (address.txt) │ Octra Testnet", "value": "sendtx"},
-            {"name": "3. Faucet Octra │ Octra Testnet", "value": "faucet"},
+            {"name": "3. Faucet Octra │ Octra Testnet", "value": "faucet", "locked": True},
 
             {"name": "4. Exit", "value": "exit"},
         ]
