@@ -1,0 +1,4 @@
+ADDRESS FAUCET 1 [ oct + Base58(SHA256(pubkey)) ]
+ADDRESS FAUCET 2 [ oct + Base58(SHA256(pubkey)) ]
+ADDRESS FAUCET 3 [ oct + Base58(SHA256(pubkey)) ]
+...
